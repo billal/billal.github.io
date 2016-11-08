@@ -3,28 +3,32 @@
   <head>
   <title>HTML Tutorial</title>
   <style>
-  #radial-center {
-  /* fallback */
-  background-color: #005bc1;
-  background-image: url(images/radial_bg.png);
-  background-position: center center;
-  background-repeat: no-repeat;
+    body {
+    text-align:center;
+    color: #ffffff;
+    }
+    #radial-center {
+    /* fallback */
+    background-color: #005bc1;
+    background-image: url(images/radial_bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
 
-  /* Safari 4-5, Chrome 1-9 */
-  /* Can't specify a percentage size? Laaaaaame. */
-  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#005bc1), to(#1a82f7));
+    /* Safari 4-5, Chrome 1-9 */
+    /* Can't specify a percentage size? Laaaaaame. */
+    background: -webkit-gradient(radial, center center, 0, center center, 460, from(#005bc1), to(#1a82f7));
 
-  /* Safari 5.1+, Chrome 10+ */
-  background: -webkit-radial-gradient(circle, #005bc1, #1a82f7);
+    /* Safari 5.1+, Chrome 10+ */
+    background: -webkit-radial-gradient(circle, #005bc1, #1a82f7);
 
-  /* Firefox 3.6+ */
-  background: -moz-radial-gradient(circle, #005bc1, #1a82f7);
+    /* Firefox 3.6+ */
+    background: -moz-radial-gradient(circle, #005bc1, #1a82f7);
 
-  /* IE 10 */
-  background: -ms-radial-gradient(circle, #005bc1, #1a82f7);
+    /* IE 10 */
+    background: -ms-radial-gradient(circle, #005bc1, #1a82f7);
 
-  /* Opera couldn't do radial gradients, then at some point they started supporting the -webkit- syntax, how it kinda does but it's kinda broken (doesn't do sizing) */
-}
+    /* Opera couldn't do radial gradients, then at some point they started supporting the -webkit- syntax, how it kinda does but it's kinda broken (doesn't do sizing) */
+  }
   </style>
   </head>
 <body id="radial-center">
